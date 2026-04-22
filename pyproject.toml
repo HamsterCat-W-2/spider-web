@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "spider-web"
+version = "0.1.0"
+description = "Web crawler based on Scrapy + Celery"
+authors = ["guoxuan.wang"]
+readme = "README.md"
+packages = [{include = "spider_web"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+scrapy = "^2.11"
+celery = "^5.3"
+redis = "^5.0"
+
+[tool.poetry.group.dev.dependencies]
+ipython = "^8.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

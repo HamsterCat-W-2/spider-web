@@ -1,0 +1,40 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Virtual environment
+.venv/
+venv/
+
+# Poetry
+poetry.lock
+
+# Scrapy
+.scrapy/
+
+# Output
+data/*.json
+data/*.csv
+data/*.xml
+!data/.gitkeep
+
+# Logs
+logs/*.log
+!logs/.gitkeep
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Environment
+.env
